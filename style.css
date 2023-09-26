@@ -1,0 +1,32 @@
+html, body {
+  margin: 0;
+  padding: 0;
+}
+canvas {
+  display: block;
+}
+
+@font-face {
+  font-family: 'font'; 
+  src: url('font.ttf') format('truetype'); 
+}
+
+@font-face {
+  font-family: 'font2';
+  src: url('font2.ttf') format('truetype');
+}
+
+body {
+      font-family: 'font', sans-serif; 
+}
+
+h1, h2, h3 {
+      font-family: 'font2', sans-serif;
+}
+
+body, html {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
